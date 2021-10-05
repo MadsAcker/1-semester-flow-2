@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+}
+body{
+    font-family: "montserrat";
+    color: #edf0f1;
+    background: rgb(0, 0, 0);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 100%;
+    min-height: 100%;
+    background-image: url(/img/pexels-gursharndeep-singh-2938278.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position-y: -870px;
+}
+.container{
+    width: 1280x;
+    min-height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* her starter nav*/
+header{
+    margin-top: 10px;
+    font-family: "montserrat";
+    background-color: rgba(0, 0, 0, 0.844);
+    min-height: 80px;
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    border: solid rgba(0, 0, 0, 0);
+}
+li, a, button {
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    border: none;
+}
+.logo{
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.logo:hover{
+    cursor: pointer;
+    padding-bottom: 10px;
+    filter: opacity(80%);
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: rgb(255, 0, 89);
+}
+button{
+    padding: 9px 25px;
+    background-color:rgb(255, 0, 89,1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:rgba(255, 0, 89, 0.473);
+}
+.færdigheder{
+    color:rgb(131, 131, 131); 
+    cursor: not-allowed;
+}
+/* her slutter nav*/
+main{
+    font-family: "montserrat";
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    padding: -100px;
+    flex-wrap: wrap;
+    padding-top: 0px;
+    justify-content: space-between;
+}
+.p1{
+    font-family: "montserrat";
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: rgb(250, 250, 250);
+}
+.mmd{
+    font-family: "montserrat";
+    font-weight: 500;
+    font-size: 50px;
+    color:rgb(255, 0, 89,1);
+    padding-top: 10px;
+}
+.p2{
+    font-size: 16px;
+    margin-top: 10px;
+}
+.knap2{
+    display: flex;
+    align-items: top;
+    margin: 20px 0px;
+}
+.herobox1{
+    padding: 0px 0px 50px 100px;
+    width: 10%;
+    flex: 1;
+}
+.herobox2{
+    padding: 50px 0px 100px 0px;
+    width: 50%;
+    flex: 2;
+    margin-right: 10px;
+    margin-top: 150px;
+    margin-left: 250px;
+}
+.progress1{
+    background:rgba(0, 0, 0, 0.344);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    padding: 30px 5px;
+    display: flex;
+    height: 40px;
+    width: 600px;
+}
+.progress-value1{
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+    border-radius: 100px;
+    background: rgb(255, 0, 89,1) ;
+    height: 30px;
+    width: 0%;
+}
+.progress2{
+    background:rgba(0, 0, 0, 0.344);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    padding: 30px 5px;
+    display: flex;
+    height: 40px;
+    width: 600px;
+}
+.progress-value2{
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+    border-radius: 100px;
+    background: rgb(255, 0, 89,1) ;
+    height: 30px;
+    width: 0%;
+}
+.progress3{
+    background:rgba(0, 0, 0, 0.344);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    padding: 30px 5px;
+    display: flex;
+    height: 40px;
+    width: 600px;
+}
+.progress-value3{
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+    border-radius: 100px;
+    background: rgb(255, 0, 89,1) ;
+    height: 30px;
+    width: 0%;
+}
+    .progress4{
+        background:rgba(0, 0, 0, 0.344);
+        justify-content: flex-start;
+        border-radius: 100px;
+        align-items: center;
+        padding: 30px 5px;
+        display: flex;
+        height: 40px;
+        width: 600px;
+}
+.progress-value4{
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px rgb(0, 0, 0);
+    border-radius: 100px;
+    background: rgb(255, 0, 89,1) ;
+    height: 30px;
+    width: 0%;
+}
+
+@keyframes  load {
+    0% {width: 0;}
+    100% {width: 68%;}
+}
+ .skillsp{
+    font-size: 18px;
+    font-weight: 700;
+    color: whitesmoke;
+    margin: 0;
+}
+/* Footer sektionen starter her*/
+footer{
+    margin-top: 200px;
+    height: 300px;
+    width: 100%;
+    bottom: 0;
+    background: linear-gradient(to bottom, #00000012, #a231310f);
+    padding: 0px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 14px;
+}
+.row{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col{
+    flex-basis: 25%;
+    padding: 10px ;
+}
+.col:nth-child(2),.col:nth-child(3){
+    flex-basis: 25%
+}
+.logo2{
+    float: top;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    padding-top: 0px;
+    white-space: nowrap;
+}
+.col h3{
+    width: fit-content;
+    margin-bottom: 30px;
+    position: relative;
+}
+.email{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+    font-size: 14px;
+}
+.footlist{
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footlist2{
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footlist a{
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footlist2 a{
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footlist:hover{
+    color: rgb(255, 0, 89,1);
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footlist2:hover{
+    color: rgb(255, 0, 89,1);
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footlist a:hover{
+    color: rgb(255, 0, 89,1);
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+.footlist2 a:hover{
+    color: rgb(255, 0, 89,1);
+    font-size: 14px;
+    list-style: none;
+    margin-bottom: 12px;
+}
+h3{
+    font-size: 16px;
+    font-weight: bold;
+}
+form{
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid;
+    margin-bottom: 50px;
+}
+form .far{
+    font-size: 18px;
+    margin-right: 10px;
+}
+form input{
+    width: 120px;
+    background: transparent;
+    color: white;
+    border: 0px;
+    outline: none;
+}
+.knapfoot{
+    background: transparent;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+}
+.knapfoot .fas{
+font-size: 16px;
+color: white;
+}
+.social-icons .fab{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0px;
+    font-size: 20px;
+    color: white;
+    background: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.social-icons .fab:hover{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0px;
+    font-size: 20px;
+    color: rgb(255, 0, 89,1);
+    background: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+hr{
+    width: 90%;
+    border: 0;
+    border-bottom: 1px solid;
+    margin: 20px auto;
+}
+.copyright{
+    text-align: center;
+}
+.underline{
+    width: 100px;
+    height: 5px;
+    background:rgb(255, 255, 255);
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+    left: 0%;
+    overflow: hidden;
+}
+.underline span{
+    width: 15px;
+    background: rgb(255, 255, 255);
+    height: 100%;
+    position: absolute;
+    border-radius: 3px;
+    left: 10px;
+    top: 0%;
+}
+/* Footer sektionen slutter her - hvis du ikke kunne gætte det ;)*/

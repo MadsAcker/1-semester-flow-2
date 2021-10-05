@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat";
+}
+body{
+    background-color: black;
+    background-image: url(/img/vej3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Menuen/nav-baren starter her*/
+header{
+    margin-top: 10px;
+    font-family: "montserrat";
+    background-color: rgba(0, 0, 0, 0.849);
+    min-height: 80px;
+    max-height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    border: solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+li, a, button {
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+    border: none;
+}
+.logo{
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+.logo:hover{
+    cursor: pointer;
+    padding-bottom: 10px;
+    filter: opacity(80%);
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav_links li a:hover{
+    color: rgb(255, 0, 89);
+}
+button{
+    padding: 9px 25px;
+    background-color:rgb(255, 0, 89,1);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color:rgba(255, 0, 89, 0.473);
+}
+.projekter{
+    cursor: not-allowed;
+    color:rgb(131, 131, 131);  
+}
+/* Menuen/nav-baren Slutter her*/
+
+.overskrift{
+    font-family: "montserrat";
+    font-size: 30px;
+    width: 100%;
+    height: 200px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 75px;
+    background-color: rgba(0, 0, 0, 0.461);
+} 
+.projekt1{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(130, 90, 42, 0.529);
+    position: relative;
+
+}
+.projekt2{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(121, 14, 78, 0.194);
+}
+.copenhagen{
+    width: 860px;
+    height: 500px;
+    margin: 50px 270px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    opacity: 0.7;
+    transition: all 0.3s ease 0s;
+    filter: blur(1px);
+    position:relative;
+    filter: grayscale(70%);
+}
+.copenhagen:hover{
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    filter: blur(0px);
+    position:relative;
+}
+.copenhagentext{
+    font-family: "montserrat";
+    font: weight 100px;;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position:absolute;
+    top: 50%;
+    left: 3%;
+    text-shadow: 2px 2px 4px #0000003e;
+}
+.macbook{
+    width: 860px;
+    height: 500px;
+    margin: 50px 270px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 40px;
+    opacity: 0.7;
+    transition: all 0.3s ease 0s;
+    filter: blur(1px);
+    position:relative;
+    filter: grayscale(70%);
+}
+.macbook:hover{
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+    filter: blur(0px);
+    position:relative;
+}
+.adobexd{
+    font-family: "montserrat";
+    font: weight 100px;;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position:absolute;
+    top: 170%;
+    left: 3%;
+    text-shadow: 2px 2px 4px #0000003e;
+}
